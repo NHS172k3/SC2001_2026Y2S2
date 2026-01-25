@@ -1,0 +1,35 @@
+a)
+14 40 31 28 3 15 17 51
+
+The mergesort splits everything up into individual elements down the call stack.
+Then, we see the following arrangements as we merge it all the way up.
+
+14 40
+28 31
+3 15
+17 51
+
+14 28 31 40
+3 15 17 51
+
+3 14 15 17 28 31 40 51
+
+number of comparisons = 4 + 3 + 2 + 7 = 16
+
+
+b)
+23 23 23 23 23 23 23 23
+
+23 23
+23 23
+23 23
+23 23
+
+23 23 23 23
+23 23 23 23
+
+23 23 23 23 23 23 23 23
+
+number of comparisons = 4 + 2 * 2 + 4 = 12
+
+

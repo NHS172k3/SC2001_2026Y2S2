@@ -2,12 +2,6 @@ def insertionSort(A: list) -> list:
     
     comparisons = 0
     for index in range(1, len(A)):
-
-        # Below swaps the element one by one --> Inefficient
-        # while index > 0 and A[index] <= A[index-1]:
-        #     A[index], A[index-1] = A[index-1] , A[index]
-        #     index -= 1
-
         # Here we store the to-be-replaced value in a key and shift the elements until our intended element is reached
         j, key = index, A[index]
 

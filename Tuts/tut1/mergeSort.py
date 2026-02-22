@@ -21,6 +21,7 @@ def merge(A: list, B: list) -> tuple:  # Return merged list and comparison count
 
 
 def mergeSort(A: list) -> tuple: 
+    
     if len(A) <= 1:
         return A, 0
     mid = len(A) // 2
